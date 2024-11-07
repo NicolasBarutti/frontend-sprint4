@@ -36,6 +36,7 @@ export default function CadastroVeiculo() {
                 placa: '',
             });
         } catch (e) {
+            console.error(e);
             setErro('Erro ao cadastrar veículo. Tente novamente.');
         }
     };
