@@ -15,6 +15,7 @@ export default function Login() {
   const chamadaApi = async () => {
     const response = await fetch(`http://127.0.0.1:5000/usuarios/${email}`)
     const lista = await response.json()
+    console.log(cliente);
     setCliente(lista)
     console.log(lista);
     console.log(lista[5])
