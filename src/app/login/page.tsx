@@ -1,7 +1,7 @@
 "use client"
-import {useEffect, useState} from 'react';
+import { useState } from 'react';
 import Header from "@/components/header";
-import {TipoCliente} from "@/types";
+import { TipoCliente } from "@/types";
 import Link from "next/link";
 
 export default function Login() {
